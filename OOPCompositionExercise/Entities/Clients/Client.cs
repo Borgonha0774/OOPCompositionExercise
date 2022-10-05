@@ -1,10 +1,8 @@
-﻿
-
-namespace OOPCompositionExercise.Entities
+﻿namespace OOPCompositionExercise.Entities.Clients
 {
     internal class Client
     {
-        public string  Name { get; set; }
+        public string Name { get; set; }
         public string Email { get; set; }
         public DateTime BirtDate { get; set; }
 

@@ -1,8 +1,6 @@
-﻿
+﻿using OOPCompositionExercise.Products;
 
-using OOPCompositionExercise.Products;
-
-namespace OOPCompositionExercise.Entities
+namespace OOPCompositionExercise.Entities.Products
 {
     internal class OrderItem
     {
@@ -21,9 +19,9 @@ namespace OOPCompositionExercise.Entities
             Product = product;
         }
 
-        public static double SubTotal()
+        public double SubTotal()
         {
-            return 1.1;
+            return Quantity*Price;
         }
     }
 }
