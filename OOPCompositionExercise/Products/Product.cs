@@ -1,5 +1,4 @@
-﻿
-namespace OOPCompositionExercise.Entities
+﻿namespace OOPCompositionExercise.Products
 {
     internal class Product
     {
